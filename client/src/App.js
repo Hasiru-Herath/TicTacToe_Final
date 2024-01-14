@@ -30,7 +30,7 @@ function App() {
     client
       .connectUser(
         {
-          id: cookies.get("userId"),
+          //id: cookies.get("userId"),
           name: cookies.get("username"),
           firstName: cookies.get("firstname"),
           lastName: cookies.get("lastname"),
